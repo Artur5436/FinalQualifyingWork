@@ -1,0 +1,2 @@
+# FinalQualifyingWork
+ВКР
