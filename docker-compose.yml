@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  notebook:
+    build: ./notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebook:/home/jovyan
+      - ./data:/data
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
+
+  server:
+    build: ./server
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./server/app:/app
+      - ./data:/data      
+    depends_on:
+      - notebook

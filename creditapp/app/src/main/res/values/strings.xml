@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">creditapp</string>
+
+    <!-- Форма собственности -->
+    <string-array name="home_ownership_display">
+        <item>Собственность</item>
+        <item>Ипотека</item>
+        <item>Аренда</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="home_ownership_values">
+        <item>OWN</item>
+        <item>MORTGAGE</item>
+        <item>RENT</item>
+        <item>OTHER</item>
+    </string-array>
+
+    <!-- Цель кредита -->
+    <string-array name="loan_intent_display">
+        <item>Личные нужды</item>
+        <item>Образование</item>
+        <item>Медицина</item>
+        <item>Предпринимательство</item>
+        <item>Ремонт жилья</item>
+        <item>Консолидация долгов</item>
+    </string-array>
+
+    <string-array name="loan_intent_values">
+        <item>PERSONAL</item>
+        <item>EDUCATION</item>
+        <item>MEDICAL</item>
+        <item>VENTURE</item>
+        <item>HOMEIMPROVEMENT</item>
+        <item>DEBTCONSOLIDATION</item>
+    </string-array>
+
+    <!-- Кредитный рейтинг -->
+    <string-array name="loan_grade_display">
+        <item>А</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+    </string-array>
+
+    <string-array name="loan_grade_values">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+    </string-array>
+
+    <!-- Просрочки -->
+    <string-array name="default_on_file_display">
+        <item>Есть</item>
+        <item>Нет</item>
+    </string-array>
+
+    <string-array name="default_on_file_values">
+        <item>Y</item>
+        <item>N</item>
+    </string-array>
+</resources>

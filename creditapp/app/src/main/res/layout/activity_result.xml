@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextViews для отображения введенных данных -->
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Возраст: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/incomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Доход: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/homeOwnershipTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тип жилья: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/empLengthTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Стаж работы: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/loanIntentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цель кредита: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/loanGradeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Класс кредита: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/loanAmountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сумма кредита: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/interestRateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Процентная ставка: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/percentIncomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Процент от дохода: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/defaultOnFileTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дефолт в истории: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/creditHistLengthTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Длина кредитной истории: "
+        android:textSize="16sp" />
+
+    <!-- Результат предсказания -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат: "
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
